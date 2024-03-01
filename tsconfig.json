@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es5",                          
+        "module": "ES2015",                     
+        "strict": true,                           
+        "esModuleInterop": true,                  
+        "skipLibCheck": true,                     
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"], // Asegúrate de que este camino apunta a tus archivos .ts
+    "exclude": ["node_modules"] 
+}
